@@ -1,0 +1,209 @@
+{
+	"name": "Dark Sea",
+	"type": "dark",
+	"colors": {
+		"activityBar.background": "#091821",
+		"activityBarBadge.background": "#25A892",
+		"activityBarBadge.foreground": "#d8e2e2",
+		"badge.background": "#25A892",
+		"breadcrumbPicker.background": "#08151C",
+		"button.background": "#25A892",
+		"checkbox.background": "#25A892",
+		"debugToolBar.background": "#091821",
+		"dropdown.background": "#091821",
+		"editor.background": "#040B0F",
+		"editor.foreground": "#d8e2e2",
+		"editor.findMatchBackground": "#0B5C4E",
+		"editor.findMatchHighlightBackground": "#341436",
+		"editor.hoverHighlightBackground": "#091821",
+		"editor.inactiveSelectionBackground": "#2F3336",
+		"editor.selectionBackground": "#5B6469",
+		"editor.lineHighlightBorder": "#091821",
+		"editorGroup.border": "#08151C",
+		"editorGroupHeader.tabsBackground": "#091821",
+		"editorGroupHeader.noTabsBackground": "#091821",
+		"editorHoverWidget.background": "#091821",
+		"editorHoverWidget.border": "#08151C",
+		"editorIndentGuide.activeBackground": "#19435C",
+		"editorIndentGuide.background": "#08151C",
+		"editorWidget.background": "#091821",
+		"focusBorder": "#25A892",
+		"input.background": "#08151C",
+		"list.focusBackground": "#5B6469",
+		"list.highlightForeground": "#25A892",
+		"list.hoverBackground": "#08151C",
+		"notifications.background": "#091821",
+		"panel.border": "#08151C",
+		"sideBar.background": "#08151C",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"statusBar.background": "#25A892",
+		"tab.border": "#08151C",
+		"tab.inactiveBackground": "#08151C",
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#404242"
+			}
+		},
+		{
+			"name": "Function Parameter",
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#84C3E8"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"storage",
+				"constant.language",
+				"support.constant",
+			],
+			"settings": {
+				"foreground": "#19435C"
+			}
+		},
+		{
+			"name": "Library/Class Type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#19435C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#2D7BA8"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant.escape",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#25A892"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"foreground": "#25A892"
+			}
+		},
+		{
+			"name": "Regular Expressions",
+			"scope": [
+				"string.regexp"
+			],
+			"settings": {
+				"foreground": "#25A892"
+			}
+		},
+		{
+			"name": "Class",
+			"scope": [
+				"entity.name.class",
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Inherited Class",
+			"scope": [
+				"entity.other.inherited-class",
+			],
+			"settings": {
+				"fontStyle": "italic underline"
+			}
+		},
+		{
+			"name": "Inserted",
+			"scope": [
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": [
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "Changed",
+			"scope": [
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Escape Characters",
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "URL",
+			"scope": [
+				"*url*",
+				"*link*",
+				"*uri*"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		}
+	]
+}
